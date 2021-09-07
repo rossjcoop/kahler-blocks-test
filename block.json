@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "kahler-blocks/kahler-blocks",
+	"version": "0.1.0",
+	"title": "Kahler Blocks",
+	"category": "theme",
+	"icon": "format-audio",
+	"description": "Additional blocks designed specifically for Kahler",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "kahler-blocks",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"categories": {
+			"type": "object"
+		},
+		"selectedCategory": {
+			"type": "string"
+		}
+	}
+}
